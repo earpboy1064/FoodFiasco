@@ -20,6 +20,8 @@ key_Left = keyboard_check(ord("A"));
 key_Up = keyboard_check(ord("W"));
 key_Down = keyboard_check(ord("S"));
 
+image_angle = point_direction(x,y,mouse_x,mouse_y)
+
 
 var move_X = (key_Right - key_Left) * movespd;
 var move_Y = ( key_Down - key_Up) * movespd;
@@ -39,8 +41,15 @@ move_Y = 0;
 x+=move_X;
 y+=move_Y;
 
-
-
+if mouse_check_button_pressed(mb_left)
+{
+	with instance_create_layer(x,y,"Instances", Food)
+	{
+	speed = 20;
+	direction = Player.image_angle;
+	image_angle = direction;
+	}
+}
 
 
 
