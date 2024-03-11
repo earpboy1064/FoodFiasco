@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"weapon",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Wall",
+  "eventList":[],
   "managed":true,
-  "name":"weapon",
+  "name":"Wall",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"attackdirectionSprite",
-    "path":"sprites/attackdirectionSprite/attackdirectionSprite.yy",
+    "name":"WallSprite",
+    "path":"sprites/WallSprite/WallSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

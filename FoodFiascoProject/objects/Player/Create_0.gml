@@ -7,3 +7,6 @@ xpressed = false;
 ypressed = false;
 
 
+movespd = 5;
+
+

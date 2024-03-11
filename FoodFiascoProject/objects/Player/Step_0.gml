@@ -15,7 +15,37 @@ x += move_x;
 
 */
 
+key_Right = keyboard_check(ord("D"));
+key_Left = keyboard_check(ord("A"));
+key_Up = keyboard_check(ord("W"));
+key_Down = keyboard_check(ord("S"));
 
+
+var move_X = (key_Right - key_Left) * movespd;
+var move_Y = ( key_Down - key_Up) * movespd;
+
+if place_meeting(x+move_X, y, Wall){
+move_X = 0;
+
+}
+
+if place_meeting(x, y+move_Y, Wall){
+
+move_Y = 0;
+}
+
+
+
+x+=move_X;
+y+=move_Y;
+
+
+
+
+
+
+/*
+else{
 if (keyboard_check(ord("W")))
 {
 y -= moveSpeed;
@@ -36,3 +66,5 @@ if( keyboard_check(ord("A")))
 {
 x -= moveSpeed;
 }
+}
+*/
