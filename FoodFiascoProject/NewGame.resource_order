@@ -17,8 +17,11 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Sprite2","order":16,"path":"sprites/Sprite2/Sprite2.yy",},
-    {"name":"Sprite13","order":1,"path":"sprites/Sprite13/Sprite13.yy",},
+    {"name":"Wall","order":2,"path":"objects/Wall/Wall.yy",},
     {"name":"weapon","order":1,"path":"objects/weapon/weapon.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"attackdirectionSprite","order":1,"path":"sprites/attackdirectionSprite/attackdirectionSprite.yy",},
+    {"name":"Sprite2","order":16,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"WallSprite","order":2,"path":"sprites/WallSprite/WallSprite.yy",},
   ],
 }
