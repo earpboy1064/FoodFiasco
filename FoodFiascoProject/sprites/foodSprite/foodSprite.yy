@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"NewGame",
-    "path":"NewGame.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
