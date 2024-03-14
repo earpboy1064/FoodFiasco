@@ -21,6 +21,7 @@
   "ResourceOrderSettings":[
     {"name":"Note1","order":5,"path":"notes/Note1/Note1.yy",},
     {"name":"Food","order":7,"path":"objects/Food/Food.yy",},
+    {"name":"FoodPlayer","order":11,"path":"objects/FoodPlayer/FoodPlayer.yy",},
     {"name":"RoomExit","order":3,"path":"objects/RoomExit/RoomExit.yy",},
     {"name":"Student1","order":10,"path":"objects/Student1/Student1.yy",},
     {"name":"Wall","order":2,"path":"objects/Wall/Wall.yy",},

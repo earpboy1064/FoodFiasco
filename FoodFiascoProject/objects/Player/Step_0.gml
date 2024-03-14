@@ -25,10 +25,11 @@ x+=move_X;
 y+=move_Y;
 
 
-//Fires object 
+//Fires object. Note: the object is different because the player was taking damage because their hitbox overlaps with the fired projectile causing them damage. 
+
 if mouse_check_button_pressed(mb_left)
 {
-	with instance_create_layer(x,y,"Instances", Food)
+	with instance_create_layer(x,y,"Instances", FoodPlayer)
 	{
 	speed = 20;
 	direction = Player.image_angle;
