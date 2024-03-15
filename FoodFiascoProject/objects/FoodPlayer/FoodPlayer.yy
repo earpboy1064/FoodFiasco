@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Player",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"FoodPlayer",
+  "eventList":[],
   "managed":true,
-  "name":"Player",
+  "name":"FoodPlayer",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Player_damaged_Sprite",
-    "path":"sprites/Player_damaged_Sprite/Player_damaged_Sprite.yy",
+    "name":"foodSprite",
+    "path":"sprites/foodSprite/foodSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

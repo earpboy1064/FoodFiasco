@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @Fires Projectile at player
 // You can write your code in this editor
 with instance_create_layer(x,y,"Instances", Food)
 	{

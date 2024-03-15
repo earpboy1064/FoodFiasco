@@ -5,8 +5,10 @@
 moveSpeed = 5;
 xpressed = false;
 ypressed = false;
-
+image_speed = 0;
 
 movespd = 5;
 
+
+health_var = 100;
 

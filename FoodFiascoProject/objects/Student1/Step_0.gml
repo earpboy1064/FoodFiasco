@@ -2,9 +2,9 @@
 // You can write your code in this editor
 
 
-
+if instance_exists(Player){
 image_angle = point_direction(x,y,Player.x,Player.y);
-
+}
 
 
 show_debug_message("not in  alarm");
