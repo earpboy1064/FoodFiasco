@@ -41,6 +41,7 @@
     {"id":{"name":"FoodBar1","path":"objects/FoodBar1/FoodBar1.yy",},},
     {"id":{"name":"FoodBar2","path":"objects/FoodBar2/FoodBar2.yy",},},
     {"id":{"name":"FoodPlayer","path":"objects/FoodPlayer/FoodPlayer.yy",},},
+    {"id":{"name":"StudentSpawner","path":"objects/StudentSpawner/StudentSpawner.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"RoomExit","path":"objects/RoomExit/RoomExit.yy",},},
     {"id":{"name":"RoomExit5","path":"objects/RoomExit5/RoomExit5.yy",},},

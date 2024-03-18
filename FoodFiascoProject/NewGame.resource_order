@@ -23,6 +23,7 @@
     {"name":"Food","order":7,"path":"objects/Food/Food.yy",},
     {"name":"FoodBar1","order":1,"path":"objects/FoodBar1/FoodBar1.yy",},
     {"name":"FoodPlayer","order":11,"path":"objects/FoodPlayer/FoodPlayer.yy",},
+    {"name":"StudentSpawner","order":2,"path":"objects/StudentSpawner/StudentSpawner.yy",},
     {"name":"RoomExit","order":3,"path":"objects/RoomExit/RoomExit.yy",},
     {"name":"Student1","order":10,"path":"objects/Student1/Student1.yy",},
     {"name":"Wall","order":2,"path":"objects/Wall/Wall.yy",},
