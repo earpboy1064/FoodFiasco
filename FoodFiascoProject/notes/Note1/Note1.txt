@@ -1,0 +1,1 @@
+Tile size for the hallways is 240x128. The room width is 1440
