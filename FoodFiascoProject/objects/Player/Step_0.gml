@@ -21,6 +21,7 @@ if place_meeting(x, y+move_Y, Wall){
 move_Y = 0;
 }
 
+
 x+=move_X;
 y+=move_Y;
 
@@ -40,7 +41,7 @@ if mouse_check_button_pressed(mb_left)
 
 // checks to see if player gets hit by food and if so removes some health
 
-if place_meeting(x, y, Food){
+if (place_meeting(x, y, Food)||place_meeting(x, y, Teacher)){
 	object_set_visible(Player, false);
 	if alarm[0] == -1{
 		image_speed = 1;
@@ -55,4 +56,6 @@ if (health_var == 0)
 {
 	instance_destroy(Player);
 }
+
+
 
