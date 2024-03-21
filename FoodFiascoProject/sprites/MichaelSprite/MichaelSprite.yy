@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Player_damaged_Sprite",
+  "%Name":"MichaelSprite",
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
@@ -24,7 +24,7 @@
     {"$GMImageLayer":"","%Name":"6b8f7a9b-b651-452f-a572-dac27829269e","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"6b8f7a9b-b651-452f-a572-dac27829269e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"61ee8001-0f30-42c0-aa7b-8661d788ef94","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"61ee8001-0f30-42c0-aa7b-8661d788ef94","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Player_damaged_Sprite",
+  "name":"MichaelSprite",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -36,7 +36,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Player_damaged_Sprite",
+    "%Name":"MichaelSprite",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Player_damaged_Sprite",
+    "name":"MichaelSprite",
     "playback":1,
     "playbackSpeed":5.0,
     "playbackSpeedType":0,
@@ -72,10 +72,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e2d71cea-7bf9-408f-aefe-23e8384b6ccd","path":"sprites/Player_damaged_Sprite/Player_damaged_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e2d71cea-7bf9-408f-aefe-23e8384b6ccd","path":"sprites/MichaelSprite/MichaelSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"17774326-0020-4ee1-bf8b-367f48e4489a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ae1bfa1c-a262-4ca0-b248-5857cdebe8a7","path":"sprites/Player_damaged_Sprite/Player_damaged_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ae1bfa1c-a262-4ca0-b248-5857cdebe8a7","path":"sprites/MichaelSprite/MichaelSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1547adab-bcf2-4a4d-a122-7425f7212a28","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Player_damaged_Sprite",
-    "path":"sprites/Player_damaged_Sprite/Player_damaged_Sprite.yy",
+    "name":"MichaelSprite",
+    "path":"sprites/MichaelSprite/MichaelSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
