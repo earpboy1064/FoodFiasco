@@ -6,8 +6,8 @@
   "name":"FoodPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"FoodObjects",
+    "path":"folders/Objects/FoodObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

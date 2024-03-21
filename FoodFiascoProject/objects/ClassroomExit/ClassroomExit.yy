@@ -9,8 +9,8 @@
   "name":"ClassroomExit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"TransistionTriggers",
+    "path":"folders/Objects/TransistionTriggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

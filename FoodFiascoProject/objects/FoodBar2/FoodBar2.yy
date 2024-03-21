@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite15",
-    "path":"sprites/Sprite15/Sprite15.yy",
+    "name":"FoodBarSprite1",
+    "path":"sprites/FoodBarSprite1/FoodBarSprite1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
