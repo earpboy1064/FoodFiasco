@@ -59,3 +59,19 @@ if (health_var == 0)
 
 
 
+if place_meeting(x,y,RoomTransitionTrigger_left)
+{
+last_known_hall_location_x = x;
+last_known_hall_location_y = y;
+last_known_hall_direction = direction;
+
+}
+
+
+if place_meeting(x,y,ClassroomExit)
+{
+hall_transition_from_class = true;
+}
+
+
+
