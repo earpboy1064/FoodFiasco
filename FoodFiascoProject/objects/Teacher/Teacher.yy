@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"teacher_sprite",
-    "path":"sprites/teacher_sprite/teacher_sprite.yy",
+    "name":"Teacher2",
+    "path":"sprites/Teacher2/Teacher2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

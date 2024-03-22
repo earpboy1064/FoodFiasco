@@ -17,9 +17,6 @@ if instance_exists(Player){
 
 }
 
-
-//show_debug_message("not in  alarm");
-
 //calls the alarm for random intervals to fire the food
 if alarm[0] == -1{
 	fire_rate = random_range(60,120);

@@ -21,6 +21,16 @@ if place_meeting(x, y+move_Y, Wall){
 move_Y = 0;
 }
 
+if place_meeting(x+move_X, y, Door){
+move_X = 0;
+
+}
+
+if place_meeting(x, y+move_Y, Door){
+
+move_Y = 0;
+}
+
 
 x+=move_X;
 y+=move_Y;
@@ -60,6 +70,14 @@ if (health_var == 0)
 
 
 if place_meeting(x,y,RoomTransitionTrigger_left)
+{
+last_known_hall_location_x = x;
+last_known_hall_location_y = y;
+last_known_hall_direction = direction;
+
+}
+
+if place_meeting(x,y,RoomTransitionTrigger_right)
 {
 last_known_hall_location_x = x;
 last_known_hall_location_y = y;
