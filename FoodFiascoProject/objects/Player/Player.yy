@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"MichaelSprite",
-    "path":"sprites/MichaelSprite/MichaelSprite.yy",
+    "name":"JeffSprite",
+    "path":"sprites/JeffSprite/JeffSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

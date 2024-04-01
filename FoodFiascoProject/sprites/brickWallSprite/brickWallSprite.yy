@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"brickWallSprite",
   "bboxMode":0,
-  "bbox_bottom":255,
+  "bbox_bottom":511,
   "bbox_left":0,
   "bbox_right":479,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"775df9f8-11a2-4572-9e58-86d41c61d096","name":"775df9f8-11a2-4572-9e58-86d41c61d096","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6679cb15-0f86-4a1e-a86c-59a3e021ff46","name":"6679cb15-0f86-4a1e-a86c-59a3e021ff46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":256,
+  "height":512,
   "HTile":true,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3a8c74b0-4bcc-4b26-aa8c-5290b07b934f","blendMode":0,"displayName":"default","isLocked":false,"name":"3a8c74b0-4bcc-4b26-aa8c-5290b07b934f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"60d7081f-6d70-46a0-87d5-e55d62ff6b17","blendMode":0,"displayName":"default","isLocked":false,"name":"60d7081f-6d70-46a0-87d5-e55d62ff6b17","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"brickWallSprite",
   "nineSlice":{
@@ -88,8 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"775df9f8-11a2-4572-9e58-86d41c61d096","path":"sprites/brickWallSprite/brickWallSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"46a26dbb-a84c-488a-bb84-b6cbd11e7c52","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6679cb15-0f86-4a1e-a86c-59a3e021ff46","path":"sprites/brickWallSprite/brickWallSprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ef001f65-2694-4dba-a712-6134de4ef21b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
