@@ -6,8 +6,8 @@
   "name":"Wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"PlayerCollision",
+    "path":"folders/Objects/Students/PlayerCollision.yy",
   },
   "parentObjectId":null,
   "persistent":false,

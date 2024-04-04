@@ -21,6 +21,16 @@ if place_meeting(x, y+move_Y, Wall){
 move_Y = 0;
 }
 
+if place_meeting(x+move_X, y, Door){
+move_X = 0;
+
+}
+
+if place_meeting(x, y+move_Y, Door){
+
+move_Y = 0;
+}
+
 
 x+=move_X;
 y+=move_Y;
@@ -67,11 +77,55 @@ last_known_hall_direction = direction;
 
 }
 
+if place_meeting(x,y,RoomTransitionTrigger_right)
+{
+last_known_hall_location_x = x;
+last_known_hall_location_y = y;
+last_known_hall_direction = direction;
+
+}
+
+
+// Hallway transistions
+if place_meeting(x,y,Hallway_transition_up)
+{
+last_known_hall_location_x = x;
+last_known_hall_location_y = y;
+last_known_hall_direction = direction;
+last_hall_trans_direction = 4;
+
+}
+if place_meeting(x,y,Hallway_transition_down)
+{
+last_known_hall_location_x = x;
+last_known_hall_location_y = y;
+last_known_hall_direction = direction;
+last_hall_trans_direction = 1;
+
+}
+if place_meeting(x,y,Hallway_transition_right)
+{
+last_known_hall_location_x = x;
+last_known_hall_location_y = y;
+last_known_hall_direction = direction;
+last_hall_trans_direction = 3;
+
+}
+if place_meeting(x,y,Hallway_transition_left)
+{
+last_known_hall_location_x = x;
+last_known_hall_location_y = y;
+last_known_hall_direction = direction;
+last_hall_trans_direction = 2;
+
+}
+
+// class room exits
 
 if place_meeting(x,y,ClassroomExit)
 {
 hall_transition_from_class = true;
 }
 
-
+show_debug_message(room_get_name(room));
 

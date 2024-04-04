@@ -9,8 +9,8 @@
   "name":"RoomTransitionTrigger_right",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"TransistionTriggers",
+    "path":"folders/Objects/TransistionTriggers.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -35,5 +35,5 @@
     "path":"sprites/Sprite18/Sprite18.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

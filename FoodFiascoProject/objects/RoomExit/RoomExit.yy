@@ -9,8 +9,8 @@
   "name":"RoomExit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"TransistionTriggers",
+    "path":"folders/Objects/TransistionTriggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,5 +35,5 @@
     "path":"sprites/Sprite6/Sprite6.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
