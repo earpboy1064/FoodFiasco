@@ -6,10 +6,10 @@ classroom_name = "Classroom" + string(classroom_number);
 if place_meeting(x,y,Player)
 {
 
-Player.last_known_hall_location_x = Player.last_known_hall_location_x  + 80;
-Player.last_known_hall_location_y =Player.last_known_hall_location_y;
+Player.last_known_hall_location_x = Player.last_known_hall_location_x ;
+Player.last_known_hall_location_y =Player.last_known_hall_location_y - 80;
 Player.last_known_hall_direction =Player.last_known_hall_direction;
-Player.last_known_hall = room_get_name(room);
+
 
 	
 	
