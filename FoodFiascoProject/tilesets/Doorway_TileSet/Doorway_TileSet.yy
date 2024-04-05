@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"",
-  "%Name":"TileSet1",
+  "%Name":"Doorway_TileSet",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet1",
+  "name":"Doorway_TileSet",
   "out_columns":3,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"brickWallSprite",
-    "path":"sprites/brickWallSprite/brickWallSprite.yy",
+    "name":"BrickDoorwaySprite",
+    "path":"sprites/BrickDoorwaySprite/BrickDoorwaySprite.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
