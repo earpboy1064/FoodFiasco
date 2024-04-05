@@ -7,16 +7,17 @@ key_Down = keyboard_check(ord("S"));
 
 image_angle = point_direction(x,y,mouse_x,mouse_y)
 
+tilemap = layer_tilemap_get_id("Wall_Tiles")
 
 var move_X = (key_Right - key_Left) * movespd;
 var move_Y = ( key_Down - key_Up) * movespd;
 
-if place_meeting(x+move_X, y, Wall){
+if place_meeting(x+move_X, y, [Wall, tilemap]){
 move_X = 0;
 
 }
 
-if place_meeting(x, y+move_Y, Wall){
+if place_meeting(x, y+move_Y,[Wall, tilemap]){
 
 move_Y = 0;
 }
@@ -87,6 +88,7 @@ last_known_hall_direction = direction;
 
 
 // Hallway transistions
+/*
 if place_meeting(x,y,Hallway_transition_up)
 {
 last_known_hall_location_x = x;
@@ -119,7 +121,7 @@ last_known_hall_direction = direction;
 last_hall_trans_direction = 2;
 
 }
-
+*/
 // class room exits
 
 if place_meeting(x,y,ClassroomExit)
