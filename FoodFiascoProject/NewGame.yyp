@@ -37,7 +37,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Screen Recording 2024-04-06 at 6.00.41 PM.mov","CopyToMask":-1,"filePath":"datafiles","name":"Screen Recording 2024-04-06 at 6.00.41 PM.mov","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -78,6 +80,7 @@
     {"id":{"name":"Hallway2","path":"rooms/Hallway2/Hallway2.yy",},},
     {"id":{"name":"Hallway3","path":"rooms/Hallway3/Hallway3.yy",},},
     {"id":{"name":"Hallway4","path":"rooms/Hallway4/Hallway4.yy",},},
+    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"attackdirectionSprite","path":"sprites/attackdirectionSprite/attackdirectionSprite.yy",},},
     {"id":{"name":"BrickDoorwaySprite","path":"sprites/BrickDoorwaySprite/BrickDoorwaySprite.yy",},},
     {"id":{"name":"brickWallSprite","path":"sprites/brickWallSprite/brickWallSprite.yy",},},
