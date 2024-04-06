@@ -80,7 +80,7 @@
     {"id":{"name":"Hallway2","path":"rooms/Hallway2/Hallway2.yy",},},
     {"id":{"name":"Hallway3","path":"rooms/Hallway3/Hallway3.yy",},},
     {"id":{"name":"Hallway4","path":"rooms/Hallway4/Hallway4.yy",},},
-    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
+    {"id":{"name":"hallwaysound","path":"sounds/hallwaysound/hallwaysound.yy",},},
     {"id":{"name":"attackdirectionSprite","path":"sprites/attackdirectionSprite/attackdirectionSprite.yy",},},
     {"id":{"name":"BrickDoorwaySprite","path":"sprites/BrickDoorwaySprite/BrickDoorwaySprite.yy",},},
     {"id":{"name":"brickWallSprite","path":"sprites/brickWallSprite/brickWallSprite.yy",},},
