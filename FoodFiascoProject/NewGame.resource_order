@@ -1,16 +1,34 @@
 {
   "FolderOrderSettings":[
+<<<<<<< Updated upstream
     {"name":"Cafeteria","order":6,"path":"folders/Objects/Cafeteria.yy",},
     {"name":"FoodObjects","order":7,"path":"folders/Objects/FoodObjects.yy",},
     {"name":"MainBuildingObjects","order":8,"path":"folders/Objects/MainBuildingObjects.yy",},
     {"name":"RoomObjects","order":11,"path":"folders/Objects/RoomObjects.yy",},
     {"name":"Students","order":9,"path":"folders/Objects/Students.yy",},
     {"name":"TransistionTriggers","order":10,"path":"folders/Objects/TransistionTriggers.yy",},
+=======
+    {"name":"Animation Curves","order":1,"path":"folders/Animation Curves.yy",},
+    {"name":"Extensions","order":2,"path":"folders/Extensions.yy",},
+    {"name":"Fonts","order":3,"path":"folders/Fonts.yy",},
+    {"name":"Notes","order":4,"path":"folders/Notes.yy",},
+    {"name":"Objects","order":5,"path":"folders/Objects.yy",},
+>>>>>>> Stashed changes
     {"name":"hall_transistions","order":9,"path":"folders/Objects/TransistionTriggers/hall_transistions.yy",},
     {"name":"Hall1","order":1,"path":"folders/Objects/TransistionTriggers/hall_transistions/Hall1.yy",},
     {"name":"Hall2","order":2,"path":"folders/Objects/TransistionTriggers/hall_transistions/Hall2.yy",},
     {"name":"Hall3","order":3,"path":"folders/Objects/TransistionTriggers/hall_transistions/Hall3.yy",},
     {"name":"Hall4","order":4,"path":"folders/Objects/TransistionTriggers/hall_transistions/Hall4.yy",},
+    {"name":"Particle Systems","order":6,"path":"folders/Particle Systems.yy",},
+    {"name":"Paths","order":7,"path":"folders/Paths.yy",},
+    {"name":"Rooms","order":8,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":9,"path":"folders/Scripts.yy",},
+    {"name":"Sequences","order":10,"path":"folders/Sequences.yy",},
+    {"name":"Shaders","order":11,"path":"folders/Shaders.yy",},
+    {"name":"Sounds","order":12,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":15,"path":"folders/Sprites.yy",},
+    {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
+    {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Note1","order":3,"path":"notes/Note1/Note1.yy",},
@@ -44,6 +62,7 @@
     {"name":"HallSprite2","order":12,"path":"sprites/HallSprite2/HallSprite2.yy",},
     {"name":"HallTrans","order":23,"path":"sprites/HallTrans/HallTrans.yy",},
     {"name":"JeffSprite","order":4,"path":"sprites/JeffSprite/JeffSprite.yy",},
+    {"name":"Key","order":31,"path":"sprites/Key/Key.yy",},
     {"name":"MichaelSprite","order":7,"path":"sprites/MichaelSprite/MichaelSprite.yy",},
     {"name":"PlayerSprite","order":6,"path":"sprites/PlayerSprite/PlayerSprite.yy",},
     {"name":"SarahSprite","order":1,"path":"sprites/SarahSprite/SarahSprite.yy",},

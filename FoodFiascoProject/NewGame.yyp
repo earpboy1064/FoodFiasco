@@ -98,6 +98,7 @@
     {"id":{"name":"HallSprite2","path":"sprites/HallSprite2/HallSprite2.yy",},},
     {"id":{"name":"HallTrans","path":"sprites/HallTrans/HallTrans.yy",},},
     {"id":{"name":"JeffSprite","path":"sprites/JeffSprite/JeffSprite.yy",},},
+    {"id":{"name":"Key","path":"sprites/Key/Key.yy",},},
     {"id":{"name":"MichaelSprite","path":"sprites/MichaelSprite/MichaelSprite.yy",},},
     {"id":{"name":"PlayerSprite","path":"sprites/PlayerSprite/PlayerSprite.yy",},},
     {"id":{"name":"SarahSprite","path":"sprites/SarahSprite/SarahSprite.yy",},},
