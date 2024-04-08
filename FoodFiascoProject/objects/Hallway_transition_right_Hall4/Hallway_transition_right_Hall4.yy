@@ -9,8 +9,8 @@
   "name":"Hallway_transition_right_Hall4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hall1",
-    "path":"folders/Objects/TransistionTriggers/hall_transistions/Hall1.yy",
+    "name":"Hall4",
+    "path":"folders/Objects/TransistionTriggers/hall_transistions/Hall4.yy",
   },
   "parentObjectId":null,
   "persistent":true,
