@@ -7,11 +7,19 @@
     {"name":"Hall4","order":4,"path":"folders/Objects/TransistionTriggers/hall_transistions/Hall4.yy",},
   ],
   "ResourceOrderSettings":[
+<<<<<<< Updated upstream
+=======
+    {"name":"Hallway_transition_down","order":6,"path":"objects/Hallway_transition_down/Hallway_transition_down.yy",},
+    {"name":"Hallway_transition_left_hall4","order":1,"path":"objects/Hallway_transition_left_hall4/Hallway_transition_left_hall4.yy",},
+    {"name":"Hallway_transition_left","order":8,"path":"objects/Hallway_transition_left/Hallway_transition_left.yy",},
+    {"name":"Hallway_transition_right","order":7,"path":"objects/Hallway_transition_right/Hallway_transition_right.yy",},
+>>>>>>> Stashed changes
     {"name":"Hallway_transition_up","order":3,"path":"objects/Hallway_transition_up/Hallway_transition_up.yy",},
     {"name":"RoomTransitionTrigger_Down","order":2,"path":"objects/RoomTransitionTrigger_Down/RoomTransitionTrigger_Down.yy",},
     {"name":"RoomTransitionTrigger_Up","order":5,"path":"objects/RoomTransitionTrigger_Up/RoomTransitionTrigger_Up.yy",},
     {"name":"Hallway2","order":1,"path":"rooms/Hallway2/Hallway2.yy",},
     {"name":"Hallway3","order":2,"path":"rooms/Hallway3/Hallway3.yy",},
+    {"name":"Hallway5","order":3,"path":"rooms/Hallway5/Hallway5.yy",},
     {"name":"attackdirectionSprite","order":17,"path":"sprites/attackdirectionSprite/attackdirectionSprite.yy",},
     {"name":"BrickDoorwaySprite","order":29,"path":"sprites/BrickDoorwaySprite/BrickDoorwaySprite.yy",},
     {"name":"brickWallSprite","order":14,"path":"sprites/brickWallSprite/brickWallSprite.yy",},
