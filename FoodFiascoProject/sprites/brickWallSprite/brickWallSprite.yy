@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"brickWallSprite",
   "bboxMode":0,
-  "bbox_bottom":511,
+  "bbox_bottom":255,
   "bbox_left":0,
   "bbox_right":479,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":512,
+  "height":256,
   "HTile":true,
   "layers":[
     {"$GMImageLayer":"","%Name":"60d7081f-6d70-46a0-87d5-e55d62ff6b17","blendMode":0,"displayName":"default","isLocked":false,"name":"60d7081f-6d70-46a0-87d5-e55d62ff6b17","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
