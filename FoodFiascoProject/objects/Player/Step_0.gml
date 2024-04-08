@@ -70,14 +70,15 @@ if (health_var == 0)
 
 
 
-if place_meeting(x,y,RoomTransitionTrigger_left)
+if place_meeting(x,y,[RoomTransitionTrigger_left,RoomTransitionTrigger_right, RoomTransitionTrigger_Up, RoomTransitionTrigger_Down])
 {
 last_known_hall_location_x = x;
 last_known_hall_location_y = y;
 last_known_hall_direction = direction;
-
+last_known_hall = room;
 }
 
+/*
 if place_meeting(x,y,RoomTransitionTrigger_right)
 {
 last_known_hall_location_x = x;
@@ -88,7 +89,7 @@ last_known_hall_direction = direction;
 
 
 // Hallway transistions
-/*
+
 if place_meeting(x,y,Hallway_transition_up)
 {
 last_known_hall_location_x = x;
