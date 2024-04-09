@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Hallway_transition_right_Hall429",
+  "%Name":"Hallway_transition_hall_3_to_4",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Hallway_transition_right_Hall429",
+  "name":"Hallway_transition_hall_3_to_4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hall1",
-    "path":"folders/Objects/TransistionTriggers/hall_transistions/Hall1.yy",
+    "name":"Hall3",
+    "path":"folders/Objects/TransistionTriggers/hall_transistions/Hall3.yy",
   },
   "parentObjectId":null,
   "persistent":true,

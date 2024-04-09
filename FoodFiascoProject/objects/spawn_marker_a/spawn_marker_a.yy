@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"spawn_marker",
+  "%Name":"spawn_marker_a",
   "eventList":[],
   "managed":true,
-  "name":"spawn_marker",
+  "name":"spawn_marker_a",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite19",
-    "path":"sprites/Sprite19/Sprite19.yy",
+    "name":"SpawnA",
+    "path":"sprites/SpawnA/SpawnA.yy",
   },
   "spriteMaskId":null,
   "visible":false,
