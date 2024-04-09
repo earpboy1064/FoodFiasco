@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite13",
-    "path":"sprites/Sprite13/Sprite13.yy",
+    "name":"attackdirectionSprite",
+    "path":"sprites/attackdirectionSprite/attackdirectionSprite.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
