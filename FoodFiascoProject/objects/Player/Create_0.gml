@@ -21,4 +21,4 @@ last_known_hall = "";
 last_hall_trans_direction = 0;
 //1 - down, 2 - left, 3 - right, 4 - up
 
-room_history = [];
+spawn_marker = spawn_marker_a

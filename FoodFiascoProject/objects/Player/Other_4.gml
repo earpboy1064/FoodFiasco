@@ -13,7 +13,7 @@ hall_transition_from_class = false;
 
 else if (object_exists(spawn_marker))
 {
-x= spawn_marker.x
+x=spawn_marker.x;
 y = spawn_marker.y;
 direction = spawn_marker.direction;
 }
