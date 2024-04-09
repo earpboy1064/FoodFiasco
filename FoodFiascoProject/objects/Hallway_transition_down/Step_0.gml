@@ -13,6 +13,6 @@ Player.last_known_hall_direction =  Player.last_known_hall_direction;
 
 
 
-	room_goto(asset_get_index("Hallway2"));
+	//room_goto(asset_get_index(hallway_name));
 
 }
