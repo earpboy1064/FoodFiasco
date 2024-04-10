@@ -6,7 +6,10 @@ if instance_exists(Player){
 	
 	image_angle = point_direction(x,y,Player.x,Player.y);
 	direction = image_angle;
-	
+	myPath = path_add();
+	mp_grid_path(room_grid, myPath,x,y,Player.x,Player.y,true);
+	path_start(myPath, current_speed, path_action_stop, true);
+
 }
 
 
@@ -22,13 +25,13 @@ if(damage_timer > damage_counter){
 timer++;
 if(timer > time)
 {
-speed = 5;
+current_speed = 5;
 timer = 0;
 }
 
-if(timer > 60 && speed == 5)
+if(timer > 60 && current_speed == 5)
 {
-speed = set_speed;
+current_speed = set_speed;
 }
 
 
@@ -41,7 +44,7 @@ if (damage_timer > damage_counter && damage_flash == true){ image_speed = 0; ima
 if place_meeting(x, y, FoodPlayer){
 	
 	if(damage_timer > damage_counter){
-		speed = set_speed;
+		current_speed = set_speed;
 		damage_timer = 0;
 		health--;
 		damage_flash = true;
