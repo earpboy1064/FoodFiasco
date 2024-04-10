@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"foodSprite",
-    "path":"sprites/foodSprite/foodSprite.yy",
+    "name":"Fish",
+    "path":"sprites/Fish/Fish.yy",
   },
   "spriteMaskId":null,
   "visible":true,
