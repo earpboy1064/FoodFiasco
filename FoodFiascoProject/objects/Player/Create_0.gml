@@ -31,3 +31,5 @@ my_sprite_index = 0;
 
 //whatever sprite we are using for the hearts
 heart_sprite = ""
+
+current_food_index = Pizza;
