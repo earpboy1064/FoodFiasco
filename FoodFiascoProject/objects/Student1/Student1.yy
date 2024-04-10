@@ -10,8 +10,8 @@
   "name":"Student1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Students",
-    "path":"folders/Objects/Students.yy",
+    "name":"globalObjects",
+    "path":"folders/Objects/globalObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

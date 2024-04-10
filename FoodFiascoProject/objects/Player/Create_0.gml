@@ -10,7 +10,7 @@ image_speed = 0;
 movespd = 5;
 
 
-health_var = 100;
+health_var = 3;
 
 hall_transition_from_class = false;
 last_known_hall_location_x = 0;
@@ -28,3 +28,6 @@ gui_y = y;
 
 
 my_sprite_index = 0;
+
+//whatever sprite we are using for the hearts
+heart_sprite = ""

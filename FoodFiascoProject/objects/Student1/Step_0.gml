@@ -32,6 +32,7 @@ if alarm[0] == -1{
 // destroys the student if the player hits them with food. 
 if place_meeting(x, y, FoodPlayer){
 	instance_destroy();
+
 	StudentSpawner.current_students = StudentSpawner.current_students -1;
 	}
 
