@@ -5,7 +5,7 @@
 
 // objects the food can collide with
 
-
+image_angle =image_angle+10;
 if place_meeting(x,y,global.food_collision_objects)
 {
 	// sound here. 

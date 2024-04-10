@@ -3,7 +3,9 @@
 
 // objects the food can collide with
 
+//image_index = sprite_choice;
 
+image_angle =image_angle+10;
 if place_meeting(x,y,global.player_food_collision_objects)
 {
 	// sound here. 
