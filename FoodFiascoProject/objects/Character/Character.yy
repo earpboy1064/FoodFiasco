@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"startButton",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Character",
+  "eventList":[],
   "managed":true,
-  "name":"startButton",
+  "name":"Character",
   "overriddenProperties":[],
   "parent":{
     "name":"Char_select_screen",
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

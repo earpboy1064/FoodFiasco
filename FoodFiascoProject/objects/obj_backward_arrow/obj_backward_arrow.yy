@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"startButton",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_backward_arrow",
+  "eventList":[],
   "managed":true,
-  "name":"startButton",
+  "name":"obj_backward_arrow",
   "overriddenProperties":[],
   "parent":{
     "name":"Char_select_screen",
@@ -30,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
+    "name":"Sprite54",
+    "path":"sprites/Sprite54/Sprite54.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
