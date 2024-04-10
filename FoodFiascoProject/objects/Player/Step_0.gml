@@ -131,5 +131,8 @@ if place_meeting(x,y,ClassroomExit)
 hall_transition_from_class = true;
 }
 
+
+gui_x = x;
+gui_y = y;
 //show_debug_message(room_get_name(room));
 
