@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"RoomExit5",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_chalkboard",
+  "eventList":[],
   "managed":true,
-  "name":"RoomExit5",
+  "name":"obj_chalkboard",
   "overriddenProperties":[],
   "parent":{
     "name":"MainBuildingObjects",
@@ -31,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
+    "name":"ChalkboardSprite",
+    "path":"sprites/ChalkboardSprite/ChalkboardSprite.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

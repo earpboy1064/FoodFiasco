@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"MainBuildingObjects",
-    "path":"folders/Objects/MainBuildingObjects.yy",
+    "path":"folders/Objects/globalObjects/MainBuildingObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
