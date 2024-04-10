@@ -19,5 +19,7 @@ draw_text_color(12,12,room_get_name(room),0,0,0,0,100);
 
 if(my_sprite_index == 31){my_sprite_index = 0;}
 
+
+// draws the hearts on the screen This also handles the speed of the hearts 
 draw_sprite(heart_sprite,floor(my_sprite_index/2),15,1000);
 my_sprite_index++;

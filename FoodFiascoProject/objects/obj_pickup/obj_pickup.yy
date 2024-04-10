@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Food",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_pickup",
+  "eventList":[],
   "managed":true,
-  "name":"Food",
+  "name":"obj_pickup",
   "overriddenProperties":[],
   "parent":{
-    "name":"FoodObjects",
-    "path":"folders/Objects/FoodObjects.yy",
+    "name":"globalObjects",
+    "path":"folders/Objects/globalObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Fish",
-    "path":"sprites/Fish/Fish.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
