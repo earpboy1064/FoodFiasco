@@ -9,7 +9,7 @@ image_angle =image_angle+10;
 if place_meeting(x,y,global.player_food_collision_objects)
 {
 	// sound here. 
-	
+	audio_play_sound(FoodSplashSound, 2, false);
 	
 	//flag to indicate timer to start so the food can hit the target and 
 	//not get deleted before it makes it there. 

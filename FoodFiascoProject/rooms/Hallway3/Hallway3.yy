@@ -42,6 +42,7 @@
     {"name":"inst_296EC8A3","path":"rooms/Hallway3/Hallway3.yy",},
     {"name":"inst_D3BA63","path":"rooms/Hallway3/Hallway3.yy",},
     {"name":"inst_4D096DCA","path":"rooms/Hallway3/Hallway3.yy",},
+    {"name":"inst_7AD1EE94","path":"rooms/Hallway3/Hallway3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -97,6 +98,7 @@
         {"$GMRInstance":"","%Name":"inst_3E93D81F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E93D81F","objectId":{"name":"spawn_marker_b","path":"objects/spawn_marker_b/spawn_marker_b.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2368.0,"y":1408.0,},
         {"$GMRInstance":"","%Name":"inst_D3BA63","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D3BA63","objectId":{"name":"TeacherSpawner","path":"objects/TeacherSpawner/TeacherSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":1184.0,},
         {"$GMRInstance":"","%Name":"inst_4D096DCA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D096DCA","objectId":{"name":"StudentSpawner","path":"objects/StudentSpawner/StudentSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":2656.0,},
+        {"$GMRInstance":"","%Name":"inst_7AD1EE94","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7AD1EE94","objectId":{"name":"CafeteriaSoundsObject","path":"objects/CafeteriaSoundsObject/CafeteriaSoundsObject.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":32.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[],"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

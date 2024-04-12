@@ -80,7 +80,6 @@
     {"name":"CafeteriaSoundsmp3","order":2,"path":"sounds/CafeteriaSoundsmp3/CafeteriaSoundsmp3.yy",},
     {"name":"ClassroomSound","order":3,"path":"sounds/ClassroomSound/ClassroomSound.yy",},
     {"name":"FoodSplashSound","order":1,"path":"sounds/FoodSplashSound/FoodSplashSound.yy",},
-    {"name":"Sound5","order":4,"path":"sounds/Sound5/Sound5.yy",},
     {"name":"attackdirectionSprite","order":17,"path":"sprites/attackdirectionSprite/attackdirectionSprite.yy",},
     {"name":"BrickDoorwaySprite","order":29,"path":"sprites/BrickDoorwaySprite/BrickDoorwaySprite.yy",},
     {"name":"brickWallSprite","order":14,"path":"sprites/brickWallSprite/brickWallSprite.yy",},
