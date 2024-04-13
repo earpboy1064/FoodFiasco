@@ -87,6 +87,7 @@
     {"id":{"name":"Hallway_transition_up","path":"objects/Hallway_transition_up/Hallway_transition_up.yy",},},
     {"id":{"name":"hallwaySoundsObject","path":"objects/hallwaySoundsObject/hallwaySoundsObject.yy",},},
     {"id":{"name":"obj_ai_bounds","path":"objects/obj_ai_bounds/obj_ai_bounds.yy",},},
+    {"id":{"name":"obj_backward_arrow","path":"objects/obj_backward_arrow/obj_backward_arrow.yy",},},
     {"id":{"name":"obj_chalkboard","path":"objects/obj_chalkboard/obj_chalkboard.yy",},},
     {"id":{"name":"obj_forward_arrow","path":"objects/obj_forward_arrow/obj_forward_arrow.yy",},},
     {"id":{"name":"obj_backward_arrow","path":"objects/obj_backward_arrow/obj_backward_arrow.yy",},},
@@ -112,6 +113,7 @@
     {"id":{"name":"StudentSpawner","path":"objects/StudentSpawner/StudentSpawner.yy",},},
     {"id":{"name":"Table","path":"objects/Table/Table.yy",},},
     {"id":{"name":"Teacher","path":"objects/Teacher/Teacher.yy",},},
+    {"id":{"name":"obj_Boss_Teacher","path":"objects/obj_Boss_Teacher/obj_Boss_Teacher.yy",},},
     {"id":{"name":"TeacherSpawner","path":"objects/TeacherSpawner/TeacherSpawner.yy",},},
     {"id":{"name":"test_ai","path":"objects/test_ai/test_ai.yy",},},
     {"id":{"name":"test_grid_create","path":"objects/test_grid_create/test_grid_create.yy",},},
@@ -199,6 +201,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Testroom","path":"rooms/Testroom/Testroom.yy",},},
     {"roomId":{"name":"Cafeteria","path":"rooms/Cafeteria/Cafeteria.yy",},},
     {"roomId":{"name":"Character_select","path":"rooms/Character_select/Character_select.yy",},},
     {"roomId":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
@@ -214,7 +217,6 @@
     {"roomId":{"name":"Hallway7","path":"rooms/Hallway7/Hallway7.yy",},},
     {"roomId":{"name":"Hallway1","path":"rooms/Hallway1/Hallway1.yy",},},
     {"roomId":{"name":"Hallway6","path":"rooms/Hallway6/Hallway6.yy",},},
-    {"roomId":{"name":"Testroom","path":"rooms/Testroom/Testroom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
