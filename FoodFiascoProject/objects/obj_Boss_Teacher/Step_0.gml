@@ -50,10 +50,14 @@ timer++;
 // runs when time for next attack
 if(timer > time)
 {
+	random_set_seed(current_time);
 	attack_type = floor(random_range(1,2.9)); // random value for selecting attack type
+	
+	set_speed = standard_speed;
 	
 	if ( attack_type == 1) //chase attack
 	{
+		thoughts = "im chasing"; 
 		set_speed = 5; // speeds up the teacher
 		max_distance = 0; // sets max distance to 0 so they can collide with the player.
 	}
@@ -64,8 +68,15 @@ timer = 0;
 
 if ( attack_type == 2) // this is outside the if because we want it to run repeatedly 
 	{
-		throw_attack();
-		max_distance =  200;
+		
+		if alarm[0] == -1
+		{
+			max_distance =  200;
+			fire_rate = random_range(50,90);
+			alarm[0] = fire_rate;
+		
+		}
+		
 	}
 
 
@@ -83,11 +94,11 @@ else{
 
 
 
-if(timer > 60 && current_speed == 5) // resets the teacher after their rage sprint. 
-{
-set_speed = standard_speed;
-current_speed = set_speed;
-}
+//if(timer > 60 && current_speed == 5) // resets the teacher after their rage sprint. 
+//{
+//set_speed = standard_speed;
+//current_speed = set_speed;
+//}
 
 
 
@@ -113,16 +124,4 @@ current_speed = set_speed;
 	
 
 }
-function throw_attack()
-{
-	if(distance_to_object(Player) < max_range)
-	{
-		if alarm[0] == -1
-		{
-			fire_rate = random_range(60,120);
-			alarm[0] = fire_rate;
-		}
-	}
-}
-
 
