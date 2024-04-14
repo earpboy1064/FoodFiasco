@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 random_set_seed(current_time);
-random_sprite = ceil(random_range(0,3));
+random_sprite = floor(random_range(0,3));
 show_debug_message(random_sprite);
 
 pickup_items = [Broccoli, Eggs, Fish, Pizza];

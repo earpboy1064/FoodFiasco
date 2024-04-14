@@ -8,8 +8,8 @@
   "name":"startButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Start_screen",
-    "path":"folders/Objects/Start_screen.yy",
+    "name":"Char_select_screen",
+    "path":"folders/Objects/Char_select_screen.yy",
   },
   "parentObjectId":null,
   "persistent":false,

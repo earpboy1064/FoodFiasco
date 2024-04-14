@@ -5,6 +5,6 @@
 counter = 0;
 start = false;
 
-obj_food_list = [Pizza,Eggs,Fish]
-food_choice = random_range(0,2);
-sprite_index = obj_food_list[food_choice];
+obj_food_list = [Pizza,Eggs,Fish,Broccoli]
+food_choice = random_range(0,4);
+sprite_index = obj_food_list[floor(food_choice)];
