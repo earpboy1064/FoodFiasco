@@ -51,7 +51,6 @@
     {"name":"inst_7410B4BD","path":"rooms/Hallway4/Hallway4.yy",},
     {"name":"inst_7FC6108B","path":"rooms/Hallway4/Hallway4.yy",},
     {"name":"inst_18D671A8","path":"rooms/Hallway4/Hallway4.yy",},
-    {"name":"inst_35A6FCF6","path":"rooms/Hallway4/Hallway4.yy",},
     {"name":"inst_5E3ED3C3","path":"rooms/Hallway4/Hallway4.yy",},
     {"name":"inst_3083F9A","path":"rooms/Hallway4/Hallway4.yy",},
     {"name":"inst_3771696D","path":"rooms/Hallway4/Hallway4.yy",},
@@ -66,6 +65,7 @@
     {"name":"inst_2947BE15","path":"rooms/Hallway4/Hallway4.yy",},
     {"name":"inst_461A670A","path":"rooms/Hallway4/Hallway4.yy",},
     {"name":"inst_690418E4","path":"rooms/Hallway4/Hallway4.yy",},
+    {"name":"inst_15FE32A7","path":"rooms/Hallway4/Hallway4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -111,7 +111,7 @@
         {"$GMRInstance":"","%Name":"inst_7410B4BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7410B4BD","objectId":{"name":"Hallway_transition_up","path":"objects/Hallway_transition_up/Hallway_transition_up.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.25,"scaleY":1.7222222,"x":576.0,"y":3744.0,},
         {"$GMRInstance":"","%Name":"inst_7FC6108B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7FC6108B","objectId":{"name":"hallwaySoundsObject","path":"objects/hallwaySoundsObject/hallwaySoundsObject.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":256.0,},
         {"$GMRInstance":"","%Name":"inst_18D671A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18D671A8","objectId":{"name":"Hallway_transition_left_hall4","path":"objects/Hallway_transition_left_hall4/Hallway_transition_left_hall4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":2.0,"scaleY":1.0,"x":0.0,"y":1152.0,},
-        {"$GMRInstance":"","%Name":"inst_35A6FCF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35A6FCF6","objectId":{"name":"Hallway_transition_right_Hall4","path":"objects/Hallway_transition_right_Hall4/Hallway_transition_right_Hall4.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":2.0,"scaleY":1.0,"x":1440.0,"y":896.0,},
+        {"$GMRInstance":"","%Name":"inst_15FE32A7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15FE32A7","objectId":{"name":"Hallway_transition_4_to_3","path":"objects/Hallway_transition_4_to_3/Hallway_transition_4_to_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":2.0,"scaleY":1.0,"x":1440.0,"y":896.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[],"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

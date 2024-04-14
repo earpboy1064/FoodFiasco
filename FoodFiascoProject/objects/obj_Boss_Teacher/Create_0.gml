@@ -9,12 +9,12 @@ current_speed = set_speed; // current speed can be modifed. used to denote the c
 //speed = set_speed;
 range = 200;
 
-health = 3;
+health = 6;
 
 sprint_Interval = 0;
 
 timer = 0;
-time = 120;
+time = 140;//og time was 120
 
 damage_counter = 100;
 damage_timer = 0;
@@ -25,6 +25,8 @@ image_speed = 0;
 
 fire_type = 0; //determines if they will throw any or few objects
 
+
+thoughts = "";
 attack_type = 0; // detmines if they will chase or throw
 
 max_distance = 0; // sets the max distance to the player the teacher will go. 

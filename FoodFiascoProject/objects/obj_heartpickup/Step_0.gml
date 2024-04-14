@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if place_meeting(x,y, Player){
-//room_goto(Hallway4);
-room_goto(ClassroomAttack);
+
+if place_meeting(x,y,Player)
+{
+Player.health_var++;
+instance_destroy();
 }

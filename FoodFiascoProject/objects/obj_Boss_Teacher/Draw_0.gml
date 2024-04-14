@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-if place_meeting(x,y, Player){
-//room_goto(Hallway4);
-room_goto(ClassroomAttack);
-}
+
+draw_self();
+draw_text(x,y+10,thoughts);

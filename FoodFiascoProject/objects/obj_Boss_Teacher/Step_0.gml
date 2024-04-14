@@ -2,7 +2,7 @@
 // You can write your code in this editor
 //This teacher object will be able to chase the player or fire projectiles at them.
 
-
+current_speed = set_speed;
 
 if instance_exists(Player){
 	
@@ -23,7 +23,7 @@ if (damage_timer > damage_counter && damage_flash == true){ image_speed = 0; ima
 if place_meeting(x, y, FoodPlayer){
 	
 	if(damage_timer > damage_counter){
-		current_speed = standard_speed;
+		set_speed = standard_speed;
 		damage_timer = 0;
 		health--;
 		damage_flash = true;
@@ -44,7 +44,7 @@ if (damage_flash == true)
 	
 damage_timer++;
 	
-if(damage_timer > damage_counter){
+//if(damage_timer > damage_counter){
 timer++;
 
 // runs when time for next attack
@@ -54,7 +54,8 @@ if(timer > time)
 	
 	if ( attack_type == 1) //chase attack
 	{
-		set_speed = 5; // speeds up the teacher
+		thoughts = "im chasing";
+		set_speed = 6; // speeds up the teacher
 		max_distance = 0; // sets max distance to 0 so they can collide with the player.
 	}
 	
@@ -64,12 +65,19 @@ timer = 0;
 
 if ( attack_type == 2) // this is outside the if because we want it to run repeatedly 
 	{
-		throw_attack();
-		max_distance =  200;
+	set_speed = standard_speed;
+	max_distance =  200;
+		if alarm[0] == -1
+		{
+			fire_rate = random_range(60,120);
+			alarm[0] = fire_rate;
+		}
+	
+		
 	}
 
 
-
+/*
 if(distance_to_object(Player) > max_distance) // this is only relevent when the teacher is firing. 
 	{
 	current_speed = set_speed; // gives the teacher back its speed so it can continue to move towards the player
@@ -79,15 +87,8 @@ else{
 	current_speed = 0; // stops the teacher from moving towards the player
 	} 
 
+*/
 
-
-
-
-if(timer > 60 && current_speed == 5) // resets the teacher after their rage sprint. 
-{
-set_speed = standard_speed;
-current_speed = set_speed;
-}
 
 
 
@@ -112,17 +113,7 @@ current_speed = set_speed;
 	
 	
 
-}
-function throw_attack()
-{
-	if(distance_to_object(Player) < max_range)
-	{
-		if alarm[0] == -1
-		{
-			fire_rate = random_range(60,120);
-			alarm[0] = fire_rate;
-		}
-	}
-}
+//}
+
 
 

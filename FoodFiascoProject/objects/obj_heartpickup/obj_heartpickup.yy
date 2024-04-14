@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Hallway_transition_hall_7_to_L_classroom",
+  "%Name":"obj_heartpickup",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Hallway_transition_hall_7_to_L_classroom",
+  "name":"obj_heartpickup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hall7",
-    "path":"folders/Objects/TransistionTriggers/hall_transistions/Hall7.yy",
+    "name":"globalObjects",
+    "path":"folders/Objects/globalObjects.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"HallTrans",
-    "path":"sprites/HallTrans/HallTrans.yy",
+    "name":"Hearts_1",
+    "path":"sprites/Hearts_1/Hearts_1.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
