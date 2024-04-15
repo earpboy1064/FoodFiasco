@@ -10,8 +10,8 @@
   "name":"StudentSpawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cafeteria",
-    "path":"folders/Objects/Cafeteria.yy",
+    "name":"globalObjects",
+    "path":"folders/Objects/globalObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

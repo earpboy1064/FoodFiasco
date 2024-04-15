@@ -17,6 +17,7 @@
     {"name":"inst_6367844B","path":"rooms/Hallway1/Hallway1.yy",},
     {"name":"inst_34A330E6","path":"rooms/Hallway1/Hallway1.yy",},
     {"name":"inst_AA83E68","path":"rooms/Hallway1/Hallway1.yy",},
+    {"name":"inst_2ACF37D8","path":"rooms/Hallway1/Hallway1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -64,6 +65,7 @@
         {"$GMRInstance":"","%Name":"inst_5D04A6D7_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D04A6D7_1_1_1","objectId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.0,"scaleX":11.825551,"scaleY":11.226654,"x":768.0,"y":3904.0,},
         {"$GMRInstance":"","%Name":"inst_2954983_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2954983_1_1_1","objectId":{"name":"Wall","path":"objects/Wall/Wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.0,"scaleX":13.583333,"scaleY":10.5,"x":264.0,"y":815.0,},
         {"$GMRInstance":"","%Name":"inst_47921C36","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47921C36","objectId":{"name":"firealarmObj","path":"objects/firealarmObj/firealarmObj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9999999,"scaleY":1.9999999,"x":544.0,"y":1280.0,},
+        {"$GMRInstance":"","%Name":"inst_2ACF37D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2ACF37D8","objectId":{"name":"obj_grid_caf","path":"objects/obj_grid_caf/obj_grid_caf.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":1248.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"WoodenFloor1","path":"sprites/WoodenFloor1/WoodenFloor1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

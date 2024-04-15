@@ -12,8 +12,8 @@
   "name":"Player",
   "overriddenProperties":[],
   "parent":{
-    "name":"TemplateObjs",
-    "path":"folders/Objects/TemplateObjs.yy",
+    "name":"globalObjects",
+    "path":"folders/Objects/globalObjects.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -33,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"JeffSprite",
-    "path":"sprites/JeffSprite/JeffSprite.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

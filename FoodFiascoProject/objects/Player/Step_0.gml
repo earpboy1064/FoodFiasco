@@ -1,5 +1,10 @@
 
 
+
+tilemap = layer_tilemap_get_id("Wall_Tiles")
+player_collision_objects = [Wall,Table,FoodBar1,FoodBar2, StudentDesk,tilemap];
+
+
 key_Right = keyboard_check(ord("D"));
 key_Left = keyboard_check(ord("A"));
 key_Up = keyboard_check(ord("W"));
@@ -13,12 +18,12 @@ image_angle = point_direction(x,y,mouse_x,mouse_y)
 var move_X = (key_Right - key_Left) * movespd;
 var move_Y = ( key_Down - key_Up) * movespd;
 
-if place_meeting(x+move_X, y, [Wall, tilemap,Table]){
+if place_meeting(x+move_X, y, player_collision_objects){
 move_X = 0;
 
 }
 
-if place_meeting(x, y+move_Y,[Wall, tilemap, Table]){
+if place_meeting(x, y+move_Y,player_collision_objects){
 
 move_Y = 0;
 }
@@ -44,7 +49,7 @@ if mouse_check_button_pressed(mb_left)
 {
 	with instance_create_layer(x,y,"Instances", FoodPlayer)
 	{
-	speed = 20;
+	speed = 15;
 	direction = Player.image_angle;
 	image_angle = direction;
 	}
@@ -79,51 +84,7 @@ last_known_hall_direction = direction;
 last_known_hall = room;
 }
 
-/*
-if place_meeting(x,y,RoomTransitionTrigger_right)
-{
-last_known_hall_location_x = x;
-last_known_hall_location_y = y;
-last_known_hall_direction = direction;
 
-}
-
-
-// Hallway transistions
-
-if place_meeting(x,y,Hallway_transition_up)
-{
-last_known_hall_location_x = x;
-last_known_hall_location_y = y;
-last_known_hall_direction = direction;
-last_hall_trans_direction = 4;
-
-}
-if place_meeting(x,y,Hallway_transition_down)
-{
-last_known_hall_location_x = x;
-last_known_hall_location_y = y;
-last_known_hall_direction = direction;
-last_hall_trans_direction = 1;
-
-}
-if place_meeting(x,y,Hallway_transition_right)
-{
-last_known_hall_location_x = x;
-last_known_hall_location_y = y;
-last_known_hall_direction = direction;
-last_hall_trans_direction = 3;
-
-}
-if place_meeting(x,y,Hallway_transition_left)
-{
-last_known_hall_location_x = x;
-last_known_hall_location_y = y;
-last_known_hall_direction = direction;
-last_hall_trans_direction = 2;
-
-}
-*/
 // class room exits
 
 if place_meeting(x,y,ClassroomExit)
@@ -131,5 +92,19 @@ if place_meeting(x,y,ClassroomExit)
 hall_transition_from_class = true;
 }
 
-//show_debug_message(room_get_name(room));
+
+// sets the food item to be whatever you picked up.
+if place_meeting(x,y,obj_pickup)
+{
+	//changes the current_food_index to match the obj_pickup sprite. 
+	//this is then used by the Player_food_object. 
+current_food_index = obj_pickup.sprite_index;
+show_debug_message("collision with obj_pickup")
+}
+
+
+//not sure if this is doing anything.
+gui_x = x;
+gui_y = y;
+
 

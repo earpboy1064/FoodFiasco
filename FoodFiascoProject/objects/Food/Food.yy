@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"Food",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Food",
   "overriddenProperties":[],
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"foodSprite",
-    "path":"sprites/foodSprite/foodSprite.yy",
+    "name":"Fish",
+    "path":"sprites/Fish/Fish.yy",
   },
   "spriteMaskId":null,
   "visible":true,
