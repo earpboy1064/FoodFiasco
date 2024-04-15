@@ -7,4 +7,30 @@ global.food_collision_objects = [Wall,Table,FoodBar1,FoodBar2, StudentDesk,tilem
 
 global.pickup_items = [Broccoli, Eggs, Fish, Pizza];
 
-global.player_sprite = MichaelSprite;
+global.player_sprite = JeffSprite;
+global.Player_sprite_index = 0;
+
+global.Player_sprites = [JeffSprite, MichaelSprite, SarahSprite];
+
+
+global.player_jeff_stats =
+{
+name: "jeff",
+health_amount: 10,
+speed_amount: 5,
+strength: 5,
+}
+global.player_sarah_stats =
+{
+name: "sarah",
+health_amount: 5,
+speed_amount: 5,
+strength: 10,
+}
+global.player_micheal_stats =
+{
+name: "micheal",
+health_amount: 5,
+speed_amount: 10,
+strength: 5,
+}

@@ -17,6 +17,10 @@ draw_set_font(room_name_font);
 
 draw_text_color(12,12,room_get_name(room),0,0,0,0,100);
 
+
+
+
+
 if(my_sprite_index == 31){my_sprite_index = 0;}
 
 
