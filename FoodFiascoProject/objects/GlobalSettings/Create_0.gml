@@ -6,3 +6,5 @@ global.player_food_collision_objects = [Wall,Table, Student1, Teacher,FoodBar1,F
 global.food_collision_objects = [Wall,Table,FoodBar1,FoodBar2, StudentDesk,tilemap, Player];
 
 global.pickup_items = [Broccoli, Eggs, Fish, Pizza];
+
+global.player_sprite = MichaelSprite;

@@ -1,5 +1,10 @@
 
 
+
+tilemap = layer_tilemap_get_id("Wall_Tiles")
+player_collision_objects = [Wall,Table,FoodBar1,FoodBar2, StudentDesk,tilemap];
+
+
 key_Right = keyboard_check(ord("D"));
 key_Left = keyboard_check(ord("A"));
 key_Up = keyboard_check(ord("W"));
@@ -13,12 +18,12 @@ image_angle = point_direction(x,y,mouse_x,mouse_y)
 var move_X = (key_Right - key_Left) * movespd;
 var move_Y = ( key_Down - key_Up) * movespd;
 
-if place_meeting(x+move_X, y, global.player_collision_objects){
+if place_meeting(x+move_X, y, player_collision_objects){
 move_X = 0;
 
 }
 
-if place_meeting(x, y+move_Y,global.player_collision_objects){
+if place_meeting(x, y+move_Y,player_collision_objects){
 
 move_Y = 0;
 }
