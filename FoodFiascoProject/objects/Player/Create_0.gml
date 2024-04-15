@@ -2,6 +2,14 @@
 // You can write your code in this editor
 tilemap = layer_tilemap_get_id("Wall_Tiles")
 
+//player_sprite  = JeffSprite;
+
+sprite_index = global.player_sprite;
+
+
+
+player_collision_objects = [Wall,Table,FoodBar1,FoodBar2, StudentDesk,tilemap];
+
 moveSpeed = 5;
 xpressed = false;
 ypressed = false;
