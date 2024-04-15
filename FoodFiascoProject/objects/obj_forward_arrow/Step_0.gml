@@ -6,9 +6,11 @@ if position_meeting(mouse_x, mouse_y, id){
 if mouse_check_button_pressed(mb_left)
 {
 	//lets the charecters loop
-	if (choice == 3){choice = 0;}
+	global.Player_sprite_index++;
+	if(global.Player_sprite_index == 3){global.Player_sprite_index = 0;}
 	show_debug_message("button pressed")
-charselect_screen_object.sprite = Player_sprites[choice]
-choice++;
+	global.player_sprite = Player_sprites[global.Player_sprite_index]
+	
+	
 }
 }
