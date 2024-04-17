@@ -9,11 +9,13 @@ image_angle =image_angle+10;
 if place_meeting(x,y,global.player_food_collision_objects)
 {
 	// sound here. 
-	
-	
+	impactx = x;
+	impacty = y;
+	//draw_sprite(impact,-1,impactx,impacty);
 	//flag to indicate timer to start so the food can hit the target and 
 	//not get deleted before it makes it there. 
 	start = true;
+	
 	
 }
 
@@ -26,5 +28,11 @@ if( counter == 3)
 {
 counter = 0;
 start = false;
+//for( i = 0; i < 18; i++){
+	
+//}
 instance_destroy(id);
+
+
+
 }

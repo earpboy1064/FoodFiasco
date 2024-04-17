@@ -26,5 +26,7 @@ if( counter == 3)
 {
 counter = 0;
 start = false;
+
 instance_destroy(id);
+
 }
