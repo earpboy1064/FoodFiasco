@@ -1,15 +1,27 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 random_set_seed(current_time);
-random_sprite = floor(random_range(0,3));
+
+
+
+spawn = false;
+random_spawn = floor(random_range(1,2));
+if(random_spawn == 1){spawn = true;
+
+
+
+random_sprite = floor(random_range(0,4.9));
 show_debug_message(random_sprite);
 
-pickup_items = [Broccoli, Eggs, Fish, Pizza];
+
+
+pickup_items = [Broccoli, Eggs, Fish, Pizza, Hearts_1];
 
 sprite_index = pickup_items[random_sprite];
 sprite = pickup_items[random_sprite];
-
+}
 
 /*
 /// @description Insert description here

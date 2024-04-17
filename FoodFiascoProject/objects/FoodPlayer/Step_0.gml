@@ -11,7 +11,7 @@ if place_meeting(x,y,global.player_food_collision_objects)
 	// sound here. 
 	impactx = x;
 	impacty = y;
-	draw_sprite(impact,5,impactx,impacty);
+	//draw_sprite(impact,-1,impactx,impacty);
 	//flag to indicate timer to start so the food can hit the target and 
 	//not get deleted before it makes it there. 
 	start = true;

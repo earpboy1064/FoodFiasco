@@ -34,3 +34,12 @@ health_amount: 5,
 speed_amount: 10,
 strength: 5,
 }
+
+
+
+randomize();
+
+
+final_classroom = floor(random_range(1,4.9));
+show_debug_message(final_classroom);
+

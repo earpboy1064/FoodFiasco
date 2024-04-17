@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":5.592,
   "name":"firealarm_sound",
   "parent":{
     "name":"Sounds",

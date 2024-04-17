@@ -75,8 +75,8 @@ if (health_var == 0)
 }
 
 
-
-if place_meeting(x,y,[RoomTransitionTrigger_left,RoomTransitionTrigger_right, RoomTransitionTrigger_Up, RoomTransitionTrigger_Down])
+roomTriggers = [RoomTransitionTrigger_left,RoomTransitionTrigger_right, RoomTransitionTrigger_Up, RoomTransitionTrigger_Down,Hallway_transition_hall_2_to_largeclassrrrom, Hallway_transition_hall_7_to_Lclassroom, Hallway_transition_hall_6_to_L_classroom];
+if place_meeting(x,y,roomTriggers)
 {
 last_known_hall_location_x = x;
 last_known_hall_location_y = y;
@@ -97,9 +97,15 @@ hall_transition_from_class = true;
 if place_meeting(x,y,obj_pickup)
 {
 	//changes the current_food_index to match the obj_pickup sprite. 
-	//this is then used by the Player_food_object. 
+	//this is then used by the Player_food_object.
+if (obj_pickup.spawn == true){
+	if(obj_pickup.sprite_index == Hearts_1){health_var++;}
+	
+	else{
 current_food_index = obj_pickup.sprite_index;
 show_debug_message("collision with obj_pickup")
+	}
+}
 }
 
 

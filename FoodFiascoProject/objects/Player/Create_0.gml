@@ -24,6 +24,7 @@ hall_transition_from_class = false;
 last_known_hall_location_x = 0;
 last_known_hall_location_y = 0;
 last_known_hall_direction = 0;
+
 last_known_hall = "";
 
 last_hall_trans_direction = 0;
