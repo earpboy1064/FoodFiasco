@@ -12,7 +12,7 @@ key_Down = keyboard_check(ord("S"));
 
 image_angle = point_direction(x,y,mouse_x,mouse_y)
 
-
+if(keyboard_check(ord("L"))){room_goto(LargeclassroomFinal);}
 
 
 var move_X = (key_Right - key_Left) * movespd;

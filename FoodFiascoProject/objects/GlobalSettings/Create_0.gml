@@ -40,6 +40,8 @@ strength: 5,
 randomize();
 
 
-final_classroom = floor(random_range(1,4.9));
-show_debug_message(final_classroom);
+//uncomment when testing is done
+//global.final_classroom = floor(random_range(1,4.9));
+global.final_classroom = 2;
+show_debug_message(global.final_classroom);
 

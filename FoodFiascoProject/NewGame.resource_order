@@ -1,9 +1,11 @@
 {
   "FolderOrderSettings":[
-    {"name":"SpecialRooms","order":1,"path":"folders/Objects/TransistionTriggers/SpecialRooms.yy",},
     {"name":"Hall6","order":1,"path":"folders/Objects/TransistionTriggers/hall_transistions/Hall6.yy",},
+    {"name":"SpecialRooms","order":1,"path":"folders/Objects/TransistionTriggers/SpecialRooms.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Brother","order":1,"path":"objects/Brother/Brother.yy",},
+    {"name":"Peaceful_student","order":2,"path":"objects/Peaceful_student/Peaceful_student.yy",},
     {"name":"Hallway_transition_hall_6_to_intercom","order":2,"path":"objects/Hallway_transition_hall_6_to_intercom/Hallway_transition_hall_6_to_intercom.yy",},
     {"name":"Hallway_transition_hall_6_to_L_classroom","order":1,"path":"objects/Hallway_transition_hall_6_to_L_classroom/Hallway_transition_hall_6_to_L_classroom.yy",},
     {"name":"obj_intercom_mic","order":1,"path":"objects/obj_intercom_mic/obj_intercom_mic.yy",},

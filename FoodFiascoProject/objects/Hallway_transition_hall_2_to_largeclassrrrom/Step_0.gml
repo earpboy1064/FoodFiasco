@@ -10,6 +10,6 @@ Player.last_known_hall_direction =  Player.last_known_hall_direction;
 Player.spawn_marker = spawn_marker_a;
 Player.last_known_hall = room;
 	
-
-room_goto(Largeclassroom);
+if(global.final_classroom == 4){room_goto(LargeclassroomFinal);}
+else{ room_goto(Largeclassroom); }
 }
