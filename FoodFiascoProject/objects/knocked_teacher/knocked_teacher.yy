@@ -1,14 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Brother",
+  "%Name":"knocked_teacher",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Brother",
+  "name":"knocked_teacher",
   "overriddenProperties":[],
   "parent":{
     "name":"characters",
@@ -31,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"BrotherSprite",
-    "path":"sprites/BrotherSprite/BrotherSprite.yy",
+    "name":"knocked_out_teacher",
+    "path":"sprites/knocked_out_teacher/knocked_out_teacher.yy",
   },
   "spriteMaskId":null,
   "visible":true,

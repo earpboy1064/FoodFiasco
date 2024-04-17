@@ -1,16 +1,24 @@
 {
   "FolderOrderSettings":[
+    {"name":"characters","order":2,"path":"folders/Objects/characters.yy",},
+    {"name":"Final_room","order":3,"path":"folders/Objects/Final_room.yy",},
     {"name":"Hall6","order":1,"path":"folders/Objects/TransistionTriggers/hall_transistions/Hall6.yy",},
     {"name":"SpecialRooms","order":1,"path":"folders/Objects/TransistionTriggers/SpecialRooms.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Brother","order":1,"path":"objects/Brother/Brother.yy",},
-    {"name":"Peaceful_student","order":2,"path":"objects/Peaceful_student/Peaceful_student.yy",},
     {"name":"Hallway_transition_hall_6_to_intercom","order":2,"path":"objects/Hallway_transition_hall_6_to_intercom/Hallway_transition_hall_6_to_intercom.yy",},
     {"name":"Hallway_transition_hall_6_to_L_classroom","order":1,"path":"objects/Hallway_transition_hall_6_to_L_classroom/Hallway_transition_hall_6_to_L_classroom.yy",},
+    {"name":"knocked_teacher","order":5,"path":"objects/knocked_teacher/knocked_teacher.yy",},
+    {"name":"obj_Boss_Teacher","order":1,"path":"objects/obj_Boss_Teacher/obj_Boss_Teacher.yy",},
+    {"name":"brother_grid","order":1,"path":"objects/brother_grid/brother_grid.yy",},
     {"name":"obj_intercom_mic","order":1,"path":"objects/obj_intercom_mic/obj_intercom_mic.yy",},
+    {"name":"Peaceful_student","order":2,"path":"objects/Peaceful_student/Peaceful_student.yy",},
+    {"name":"Player","order":6,"path":"objects/Player/Player.yy",},
+    {"name":"Student1","order":3,"path":"objects/Student1/Student1.yy",},
+    {"name":"Teacher","order":4,"path":"objects/Teacher/Teacher.yy",},
     {"name":"Intercom_room","order":1,"path":"rooms/Intercom_room/Intercom_room.yy",},
     {"name":"LargeclassroomFinal","order":2,"path":"rooms/LargeclassroomFinal/LargeclassroomFinal.yy",},
     {"name":"Intercom_mic","order":1,"path":"sprites/Intercom_mic/Intercom_mic.yy",},
+    {"name":"knocked_out_teacher","order":2,"path":"sprites/knocked_out_teacher/knocked_out_teacher.yy",},
   ],
 }

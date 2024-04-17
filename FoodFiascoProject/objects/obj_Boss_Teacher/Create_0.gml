@@ -9,7 +9,7 @@ current_speed = set_speed; // current speed can be modifed. used to denote the c
 //speed = set_speed;
 range = 200;
 
-health = 10;
+health = 2;
 
 sprint_Interval = 0;
 

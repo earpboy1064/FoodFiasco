@@ -12,8 +12,8 @@
   "name":"Player",
   "overriddenProperties":[],
   "parent":{
-    "name":"globalObjects",
-    "path":"folders/Objects/globalObjects.yy",
+    "name":"characters",
+    "path":"folders/Objects/characters.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -2,6 +2,18 @@
 // You can write your code in this editor
 //This teacher object will be able to chase the player or fire projectiles at them.
 
+
+
+		if(health == 0)
+		{
+		 instance_create_layer(x,y,"Instances", knocked_teacher);
+		 global.game_over = true;
+		 instance_destroy();
+		 
+		//instance_destroy();
+		}
+		
+if(health > 0){
 current_speed = set_speed;
 
 if instance_exists(Player){
@@ -28,10 +40,6 @@ if place_meeting(x, y, FoodPlayer){
 		health--;
 		damage_flash = true;
 	
-		if(health == 0)
-		{
-		instance_destroy();
-		}
 	}
 	
 }
@@ -75,7 +83,7 @@ if ( attack_type == 2) // this is outside the if because we want it to run repea
 	
 		
 	}
-
+}
 
 /*
 if(distance_to_object(Player) > max_distance) // this is only relevent when the teacher is firing. 

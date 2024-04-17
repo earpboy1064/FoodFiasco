@@ -4,7 +4,7 @@
 //if !instance_exists(camer)
 //display_set_gui_size(1366, 1366);
 
-
+if( global.game_over == false){
 //sets the heart sprite
 if (health_var = 3) {heart_sprite = Hearts_3;}
 if (health_var = 2) {heart_sprite = Hearts_2;}
@@ -27,3 +27,8 @@ if(my_sprite_index == 31){my_sprite_index = 0;}
 // draws the hearts on the screen This also handles the speed of the hearts 
 draw_sprite(heart_sprite,floor(my_sprite_index/2),15,1000);
 my_sprite_index++;
+
+}
+
+
+

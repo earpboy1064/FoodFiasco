@@ -4,7 +4,23 @@
 tilemap = layer_tilemap_get_id("Wall_Tiles")
 player_collision_objects = [Wall,Table,FoodBar1,FoodBar2, StudentDesk,tilemap];
 
+if(global.game_over == true)
+{
+	
+	if(instance_exists(game_over_victory)){
+		image_angle = point_direction(x,y,Brother.x,Brother.y);
+		direction = image_angle+90;
+		game_over_timer++;
+		if(game_over_timer > 40){
+		myPath = path_add();
+		mp_grid_path(room_grid, myPath,x,y,game_over_victory.x,game_over_victory.y,true);
+		path_start(myPath, moveSpeed, path_action_stop, true);
+		}
+	}
+}
 
+
+if(global.game_over == false){
 key_Right = keyboard_check(ord("D"));
 key_Left = keyboard_check(ord("A"));
 key_Up = keyboard_check(ord("W"));
@@ -113,4 +129,5 @@ show_debug_message("collision with obj_pickup")
 gui_x = x;
 gui_y = y;
 
+}
 

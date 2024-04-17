@@ -45,3 +45,4 @@ randomize();
 global.final_classroom = 2;
 show_debug_message(global.final_classroom);
 
+global.game_over = false;
