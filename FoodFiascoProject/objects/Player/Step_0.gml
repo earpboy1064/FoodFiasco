@@ -35,9 +35,9 @@ if(global.game_over == false){
 
 	image_angle = point_direction(x,y,mouse_x,mouse_y)
 
-	if(keyboard_check(ord("L"))){room_goto(LargeclassroomFinal);} //debug
-	if(keyboard_check(ord("F"))){room_goto(Hallway1);}
-	if(keyboard_check(ord("I"))){room_goto(Intercom_room);}
+	//if(keyboard_check(ord("L"))){room_goto(LargeclassroomFinal);} //debug
+	//if(keyboard_check(ord("F"))){room_goto(Hallway1);}
+	//if(keyboard_check(ord("I"))){room_goto(Intercom_room);}
 	
 
 
@@ -130,9 +130,10 @@ move_Y = 0;
 
 // checks to see if player gets hit by food and if so removes some health
 
-	if (place_meeting(x, y, Food)||place_meeting(x, y, Teacher)){
+	if (place_meeting(x, y, Food)||place_meeting(x, y, Teacher) || place_meeting(x,y,obj_Boss_Teacher)){
 		object_set_visible(Player, false);
 		if alarm[0] == -1{
+			health_var = health_var - 1;
 			image_speed = 1;
 			alarm[0] = 120;
 		}
@@ -141,7 +142,9 @@ move_Y = 0;
 //checks to see if player is at zero health and if so it destroys the player instance
 	if (health_var == 0)
 	{
+		game_end();
 		instance_destroy(Player);
+		
 	}
 
 
