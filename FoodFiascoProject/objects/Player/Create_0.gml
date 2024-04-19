@@ -26,6 +26,7 @@ last_known_hall_location_y = 0;
 last_known_hall_direction = 0;
 
 last_known_hall = "";
+return_marker = spawn_marker_a;
 
 last_hall_trans_direction = 0;
 //1 - down, 2 - left, 3 - right, 4 - up
@@ -42,3 +43,19 @@ my_sprite_index = 0;
 heart_sprite = ""
 
 current_food_index = Pizza;
+
+game_over_timer = 0;
+food_fact = false;
+food_fact_timer = 0;
+
+// does the player have the key
+//key=false;
+key=true; //debug 
+
+i = 0;
+time_elapsed = 0;
+total_time = 300;
+time_left_minutes = 5;
+time_left_seconds = 0;
+
+time_left = 0;

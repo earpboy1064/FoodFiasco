@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-classroom_number = ceil(random_range(1,5));
+classroom_number = floor(random_range(1,5.9));
 
 
 

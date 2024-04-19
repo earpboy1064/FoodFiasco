@@ -1,0 +1,19 @@
+Thinks to finish
+
+All food types need food info page
+
+unlockable doors need to be put in game.
+
+principles office needs to be put in game.
+
+key needs to be added into game
+
+fire alarm needs to be add time to the timer
+
+intercom needs to add time to the timer.
+
+key needs to be shown in gui
+
+if time:
+
+add hints for player to point them in the right direction.

@@ -5,7 +5,7 @@
 if (current_students < max_students){
 
 	if alarm[0] == -1{
-		spawn_rate = random_range(120, 500);
+		spawn_rate = random_range(60, 100);
 		alarm[0] = spawn_rate;
 	}
 }

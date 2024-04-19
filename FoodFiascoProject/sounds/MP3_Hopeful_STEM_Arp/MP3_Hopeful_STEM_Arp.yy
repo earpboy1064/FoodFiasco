@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"MP3_Hopeful_STEM_Arp",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":194.5004,
+  "name":"MP3_Hopeful_STEM_Arp",
+  "parent":{
+    "name":"STEMS",
+    "path":"folders/Sounds/Hopeful/MP3/STEMS.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"MP3_Hopeful_STEM_Arp.mp3",
+  "type":0,
+  "volume":1.0,
+}
