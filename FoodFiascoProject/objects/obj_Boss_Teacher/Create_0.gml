@@ -10,7 +10,7 @@ damage_sound = [ogg_snd_knight_pain_02,ogg_snd_knight_pain_01];
 //speed = set_speed;
 range = 200;
 
-health = 2; // needs to be set back to 10
+health = 10; // needs to be set back to 10
 
 sprint_Interval = 0;
 
