@@ -2,7 +2,7 @@
 // You can write your code in this editor
 tilemap = layer_tilemap_get_id("Wall_Tiles")
 global.player_collision_objects = [Wall,Table,FoodBar1,FoodBar2, StudentDesk,tilemap];
-global.player_food_collision_objects = [Wall,Table, obj_Unlockable_Door,Student1, Teacher,FoodBar1,FoodBar2, StudentDesk,tilemap];
+global.player_food_collision_objects = [Wall,Table, obj_Unlockable_Door,Student1, Teacher,FoodBar1,FoodBar2, StudentDesk,obj_cabinet,obj_chalkboard,obj_teacher_desk,plant,Bookcase,tilemap];
 global.food_collision_objects = [Wall,obj_Unlockable_Door,Table,FoodBar1,FoodBar2, StudentDesk,Player,obj_cabinet,obj_chalkboard,obj_teacher_desk,plant,Bookcase,tilemap];
 
 global.pickup_items = [Broccoli, Eggs, Fish, Pizza];

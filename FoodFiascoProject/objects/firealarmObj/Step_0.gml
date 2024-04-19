@@ -11,10 +11,11 @@ if (distance_to_object(Player)<40)
 	
 	{
 		
+		if(pulled != true){
 		Player.total_time += 60;
-		image_speed = 0;
-		image_index = 1;
-		triggered = true;
+		pulled = true;
+		image_index=1;
+		}
 	
 	}
 	}

@@ -24,6 +24,7 @@
     {"name":"inst_1045148D","path":"rooms/Classroom3/Classroom3.yy",},
     {"name":"inst_70BC9DFF","path":"rooms/Classroom3/Classroom3.yy",},
     {"name":"inst_54EF8120","path":"rooms/Classroom3/Classroom3.yy",},
+    {"name":"inst_24531BC5","path":"rooms/Classroom3/Classroom3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -47,6 +48,7 @@
         {"$GMRInstance":"","%Name":"inst_1045148D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1045148D","objectId":{"name":"obj_grid_caf","path":"objects/obj_grid_caf/obj_grid_caf.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":992.0,},
         {"$GMRInstance":"","%Name":"inst_70BC9DFF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70BC9DFF","objectId":{"name":"obj_pickup","path":"objects/obj_pickup/obj_pickup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":352.0,},
         {"$GMRInstance":"","%Name":"inst_54EF8120","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_54EF8120","objectId":{"name":"Door","path":"objects/Door/Door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-115.61796,"scaleX":3.8460348,"scaleY":3.8460348,"x":164.0,"y":964.0,},
+        {"$GMRInstance":"","%Name":"inst_24531BC5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24531BC5","objectId":{"name":"StudentSpawner","path":"objects/StudentSpawner/StudentSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":992.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"HallSprite2","path":"sprites/HallSprite2/HallSprite2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

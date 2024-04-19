@@ -9,7 +9,7 @@ room_grid= mp_grid_create(0, 0, room_width div 64, room_height div 64, 64, 64);
 //collision_objects = layer_get_all_elements("Instances_collision");
 mp_grid_add_instances(room_grid, Wall, false);
 
-collision_objects = [Table, FoodBar1, FoodBar2, Door,obj_Unlockable_Door,obj_teacher_desk, obj_ai_bounds,obj_cabinet,obj_chalkboard,obj_teacher_desk,plant,Bookcase,];
+collision_objects = [Table, FoodBar1, FoodBar2, Door,obj_Unlockable_Door,obj_teacher_desk, obj_ai_bounds,obj_cabinet,obj_chalkboard,obj_teacher_desk,plant,Bookcase,StudentDesk];
 for( i = 0; i < array_length(collision_objects); i++)
 {
 //	show_debug_message(object_get_name(collision_objects[i]));

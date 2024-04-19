@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Instruction_button",
+  "%Name":"obj_start_button93",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Instruction_button",
+  "name":"obj_start_button93",
   "overriddenProperties":[],
   "parent":{
     "name":"Char_select_screen",

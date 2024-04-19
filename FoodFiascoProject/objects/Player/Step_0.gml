@@ -35,7 +35,10 @@ if(global.game_over == false){
 
 	image_angle = point_direction(x,y,mouse_x,mouse_y)
 
-	if(keyboard_check(ord("L"))){room_goto(LargeclassroomFinal);}
+	if(keyboard_check(ord("L"))){room_goto(LargeclassroomFinal);} //debug
+	if(keyboard_check(ord("F"))){room_goto(Hallway1);}
+	if(keyboard_check(ord("I"))){room_goto(Intercom_room);}
+	
 
 
 	var move_X = (key_Right - key_Left) * movespd;

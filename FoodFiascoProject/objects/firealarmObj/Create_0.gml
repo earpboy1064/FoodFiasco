@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+image_index=0;
+image_speed = 0;
+pulled = false;
 
-max_students = 4;
-current_students = 0;
-spawn_rate = 0;
+timer = 0;
