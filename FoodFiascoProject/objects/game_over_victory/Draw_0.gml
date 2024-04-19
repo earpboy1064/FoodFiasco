@@ -17,7 +17,20 @@ if(time > 300){
 	//draw_text(704,682,"Game Over")
 	
 	draw_rectangle_color(0,455,1408,910,c_grey,c_grey,c_grey,c_grey,false);
-	draw_text_color(704,682,"Game Over", c_white,c_white,c_white,c_white,alpha)
+	draw_text_color(room_width/2,room_height/2,"Game Over", c_white,c_white,c_white,c_white,alpha)
+}
+
+if(alpha >= 650)
+{
+	
+	audio_stop_sound(MP3_8_Bit_Main);
+
+		{
+			if(!audio_is_playing(MP3_8_Bit_Win_Sting)){
+			audio_play_sound(MP3_8_Bit_Win_Sting,10,false,1);
+			}
+		}
+
 }
 //draw_set_alpha(0.5);
 

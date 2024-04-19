@@ -31,7 +31,6 @@
     {"name":"inst_29810EB9","path":"rooms/caf/caf.yy",},
     {"name":"inst_4E370D73","path":"rooms/caf/caf.yy",},
     {"name":"inst_6AD4E55A","path":"rooms/caf/caf.yy",},
-    {"name":"inst_56289141","path":"rooms/caf/caf.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -62,7 +61,6 @@
         {"$GMRInstance":"","%Name":"inst_29810EB9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_29810EB9","objectId":{"name":"Table","path":"objects/Table/Table.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.09229,"scaleX":5.0,"scaleY":4.5,"x":384.0,"y":608.0,},
         {"$GMRInstance":"","%Name":"inst_4E370D73","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E370D73","objectId":{"name":"FoodBar2","path":"objects/FoodBar2/FoodBar2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.2646675,"scaleY":5.7495155,"x":288.0,"y":96.0,},
         {"$GMRInstance":"","%Name":"inst_6AD4E55A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6AD4E55A","objectId":{"name":"FoodBar1","path":"objects/FoodBar1/FoodBar1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.2412934,"scaleY":5.598543,"x":768.0,"y":96.0,},
-        {"$GMRInstance":"","%Name":"inst_56289141","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56289141","objectId":{"name":"GlobalSettings","path":"objects/GlobalSettings/GlobalSettings.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":512.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"Caf_floor_sprite","path":"sprites/Caf_floor_sprite/Caf_floor_sprite.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
@@ -89,7 +87,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":1366,"hspeed":-1,"hview":1366,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1408,"wview":1408,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

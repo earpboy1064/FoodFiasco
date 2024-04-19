@@ -44,3 +44,7 @@ heart_sprite = ""
 current_food_index = Pizza;
 
 game_over_timer = 0;
+food_fact = false;
+food_fact_timer = 0;
+
+i = 0;

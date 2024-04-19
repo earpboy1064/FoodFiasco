@@ -39,6 +39,11 @@ if place_meeting(x, y, FoodPlayer){
 		damage_timer = 0;
 		health--;
 		damage_flash = true;
+		//plays random damage sound when hit.
+		var _sound_index = floor(random_range(0,1.9));
+		if(!audio_is_playing(damage_sound[_sound_index])){
+		audio_play_sound(damage_sound[_sound_index],10,false,5,0);
+		}
 	
 	}
 	

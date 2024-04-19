@@ -46,3 +46,7 @@ global.final_classroom = 2;
 show_debug_message(global.final_classroom);
 
 global.game_over = false;
+global.game_start = false;
+
+global.current_time = 0;
+time_temp = 0;

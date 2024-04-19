@@ -17,7 +17,7 @@ draw_set_font(room_name_font);
 
 draw_text_color(12,12,room_get_name(room),0,0,0,0,100);
 
-
+draw_text_color(1002,1002, floor(current_time/1000),0,0,0,0,100);
 
 
 
@@ -31,4 +31,26 @@ my_sprite_index++;
 }
 
 
+
+if (food_fact == true ) { 
+	
+	food_fact_timer++;
+	
+	if(food_fact_timer < 180){
+	food_facts();
+	}
+	else{
+		food_fact_timer = 0;
+		food_fact = false;
+	}
+	
+	
+	}
+
+function food_facts() 
+{
+
+	draw_sprite(Broccoli_text,1,1024,928);
+
+}
 
