@@ -8,7 +8,8 @@ Player.last_known_hall_location_x = Player.last_known_hall_location_x;
 Player.last_known_hall_location_y = Player.last_known_hall_location_y - 80;
 Player.last_known_hall_direction =  Player.last_known_hall_direction;
 Player.spawn_marker = spawn_marker_a;
-Player.last_known_hall = room;
+Player.return_marker = spawn_marker_b;
+Player.last_known_hall = Hallway2;
 	
 if(global.final_classroom == 4){room_goto(LargeclassroomFinal);}
 else{ room_goto(Largeclassroom); }

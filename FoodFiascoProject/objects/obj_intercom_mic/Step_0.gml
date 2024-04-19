@@ -11,7 +11,7 @@ if (distance_to_object(Player)<40)
 	
 	{
 		
-	
+		
 		instance_destroy();
 	
 	}

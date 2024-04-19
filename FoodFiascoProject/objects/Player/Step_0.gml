@@ -4,7 +4,7 @@ try{
 tilemap = layer_tilemap_get_id("Wall_Tiles")
 
 }
-player_collision_objects = [Wall,Table,FoodBar1,FoodBar2, StudentDesk,Door,tilemap];
+player_collision_objects = [Wall,obj_Unlockable_Door,Table,FoodBar1,FoodBar2, StudentDesk,Door,obj_teacher_desk, obj_cabinet, plant, obj_chalkboard, Bookcase, tilemap];
 
 
 // Game over
