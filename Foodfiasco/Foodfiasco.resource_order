@@ -16,9 +16,5 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[
-    {"name":"Sprite2","order":16,"path":"sprites/Sprite2/Sprite2.yy",},
-    {"name":"Sprite13","order":1,"path":"sprites/Sprite13/Sprite13.yy",},
-    {"name":"weapon","order":1,"path":"objects/weapon/weapon.yy",},
-  ],
+  "ResourceOrderSettings":[],
 }
