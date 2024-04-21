@@ -10,12 +10,13 @@ if (distance_to_object(Player)<40)
 	if mouse_check_button_pressed(mb_left)
 	
 	{
-		
+	if(triggered != true){
 		Player.total_time += 60;
 		image_speed = 0;
 		image_index = 1;
 		triggered = true;
 	
+	}
 	}
 	}
 }
