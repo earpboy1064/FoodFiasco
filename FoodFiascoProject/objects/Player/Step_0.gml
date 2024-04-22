@@ -38,7 +38,7 @@ if(global.game_over == false){
 	if(keyboard_check(ord("L"))){room_goto(LargeclassroomFinal);} //debug
 	if(keyboard_check(ord("F"))){room_goto(Hallway1);}
 	if(keyboard_check(ord("I"))){room_goto(Intercom_room);}
-	
+
 
 
 	var move_X = (key_Right - key_Left) * movespd;

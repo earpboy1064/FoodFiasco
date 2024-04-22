@@ -18,7 +18,8 @@ image_speed = 0;
 movespd = 5;
 
 
-health_var = 3;
+health_var = 3;//3
+
 
 hall_transition_from_class = false;
 last_known_hall_location_x = 0;
@@ -49,8 +50,8 @@ food_fact = false;
 food_fact_timer = 0;
 
 // does the player have the key
-//key=false;
-key=true; //debug 
+key=false;
+//key=true; //debug 
 
 i = 0;
 time_elapsed = 0;
