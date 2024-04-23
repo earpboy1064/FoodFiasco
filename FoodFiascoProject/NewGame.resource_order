@@ -1,4 +1,10 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"End_button","order":1,"path":"objects/End_button/End_button.yy",},
+    {"name":"obj_start_over_button","order":2,"path":"objects/obj_start_over_button/obj_start_over_button.yy",},
+    {"name":"Wallinvis","order":1,"path":"objects/Wallinvis/Wallinvis.yy",},
+    {"name":"GameoverScreen","order":1,"path":"rooms/GameoverScreen/GameoverScreen.yy",},
+    {"name":"Sprite74","order":2,"path":"sprites/Sprite74/Sprite74.yy",},
+  ],
 }

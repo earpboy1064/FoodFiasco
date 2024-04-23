@@ -56,7 +56,10 @@ key=false;
 i = 0;
 time_elapsed = 0;
 total_time = 300;
+
 time_left_minutes = 5;
 time_left_seconds = 0;
 
-time_left = 0;
+time_left = total_time;
+
+spawn_room = false;

@@ -43,7 +43,7 @@ randomize();
 //uncomment when testing is done
 global.final_classroom = floor(random_range(1,4.9));
 //global.final_classroom = 2;
-show_debug_message(global.final_classroom);
+show_debug_message("classroom= " + string(global.final_classroom));
 
 global.game_over = false;
 global.game_start = false;
