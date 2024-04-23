@@ -4,7 +4,7 @@ try{
 tilemap = layer_tilemap_get_id("Wall_Tiles")
 
 }
-player_collision_objects = [Wall,obj_Unlockable_Door,Table,FoodBar1,FoodBar2, StudentDesk,Door,obj_teacher_desk, obj_cabinet, plant, obj_chalkboard, Bookcase, tilemap];
+player_collision_objects = [Wall,obj_Unlockable_Door,Table,FoodBar1,FoodBar2, StudentDesk,Door,obj_teacher_desk, obj_cabinet, plant, obj_chalkboard, Bookcase,Wallinvis, tilemap];
 
 
 // Game over
@@ -35,10 +35,10 @@ if(global.game_over == false){
 
 	image_angle = point_direction(x,y,mouse_x,mouse_y)
 
-	//if(keyboard_check(ord("L"))){room_goto(LargeclassroomFinal);} //debug
-	//if(keyboard_check(ord("F"))){room_goto(Hallway1);}
-	//if(keyboard_check(ord("I"))){room_goto(Intercom_room);}
-	
+	if(keyboard_check(ord("L"))){room_goto(LargeclassroomFinal);} //debug
+	if(keyboard_check(ord("F"))){room_goto(Hallway1);}
+	if(keyboard_check(ord("I"))){room_goto(Intercom_room);}
+
 
 
 	var move_X = (key_Right - key_Left) * movespd;
@@ -140,10 +140,15 @@ move_Y = 0;
 	}
 
 //checks to see if player is at zero health and if so it destroys the player instance
-	if (health_var == 0)
+	if (health_var == 0 || time_left == 0)
 	{
-		game_end();
-		instance_destroy(Player);
+		if (spawn_room == false){
+		spawn_room = true;
+		spawn_marker = spawn_marker_a;
+		room_goto(GameoverScreen);
+		}
+		//game_end();
+		//instance_destroy(Player);
 		
 	}
 

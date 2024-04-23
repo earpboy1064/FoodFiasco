@@ -18,7 +18,8 @@ image_speed = 0;
 movespd = 5;
 
 
-health_var = 3;
+health_var = 3;//3
+
 
 hall_transition_from_class = false;
 last_known_hall_location_x = 0;
@@ -55,7 +56,10 @@ key=false;
 i = 0;
 time_elapsed = 0;
 total_time = 300;
+
 time_left_minutes = 5;
 time_left_seconds = 0;
 
-time_left = 0;
+time_left = total_time;
+
+spawn_room = false;
