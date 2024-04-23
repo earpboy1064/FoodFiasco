@@ -18,7 +18,8 @@ image_speed = 0;
 movespd = 5;
 
 
-health_var = 3;
+health_var = 3;//3
+
 
 hall_transition_from_class = false;
 last_known_hall_location_x = 0;
